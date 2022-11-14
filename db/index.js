@@ -1,6 +1,6 @@
 const pg = require('pg')
 
-const client  = new pg.Client('postgres://localhost:5432/ProjectOverview')
+const client  = new pg.Client('postgres://localhost:5432/localDBName')
 
 module.exports = { client }
 
