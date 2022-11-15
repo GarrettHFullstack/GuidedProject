@@ -413,7 +413,7 @@ async function rebuidDB(){
         await createIntitalPosts()
         await createInitialTags();
         await testDB()
-
+        client.end()
     } catch (error) {
         console.log(error)
     }
